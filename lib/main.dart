@@ -1,4 +1,4 @@
-import 'package:chat_app/features/view/home_view.dart';
+import 'package:chat_app/features/view/home_view.dart'; //غيرنا وحدثنا مسار الفايل
 import 'package:flutter/material.dart';
 
 void main() {
