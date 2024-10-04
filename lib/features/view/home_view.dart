@@ -1,27 +1,16 @@
 import 'package:chat_app/features/view_model/home_view_model.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
-  const Home({super.key});
+class HomeView extends StatelessWidget {
+  HomeView({super.key});
 
-  @override
-  State<Home> createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
   //هنعمل نسخة من كلاس الفيو موديل
   var data = HomeViewModel();
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          data.title,
-        ),
-        backgroundColor: const Color.fromARGB(255, 145, 48, 4),
-      ),
-      body: const Center(
+    return const Scaffold(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -47,4 +36,5 @@ class _HomeState extends State<Home> {
     );
   }
 }
+
 // شوية كلام بجرب أشوف هيتمسح ولاء
