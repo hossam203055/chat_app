@@ -10,31 +10,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            TextField(
-              //controller: usernameTextControler,
-              decoration: InputDecoration(
-                labelText: 'Username',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            TextField(
-              //controller: passwordTextControler,
-              obscureText: true,
-              decoration: InputDecoration(
-                labelText: 'Password',
-                border: OutlineInputBorder(),
-              ),
-            ),
-            ElevatedButton(onPressed: null, child: Text("Login")),
-          ],
-        ),
-      ),
+      //لسة هنبقى نملاه ونشتغل عليه
     );
   }
 }
-
-// شوية كلام بجرب أشوف هيتمسح ولاء

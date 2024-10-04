@@ -10,7 +10,7 @@ abstract class Styles {
   );
   static const textStyle10 = TextStyle(
     color: ColorApp.primaryColor,
-    fontSize: 24,
+    fontSize: 10,
     fontWeight: FontWeight.w600,
   );
 }
