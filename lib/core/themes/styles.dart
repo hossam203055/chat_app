@@ -13,4 +13,9 @@ abstract class Styles {
     fontSize: 10,
     fontWeight: FontWeight.w600,
   );
+  static const textStyle16 = TextStyle(
+    color: ColorApp.primaryColor,
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+  );
 }

@@ -5,4 +5,5 @@ abstract class DefaultText {
   static const login = "Login";
   static const register = "Register";
   static const dontHaveAnAccount = "Don't have an acount?";
+  static const appName = "WhatsUp";
 }
