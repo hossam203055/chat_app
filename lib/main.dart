@@ -1,4 +1,4 @@
-import 'package:chat_app/features/view/splash_view.dart';//غيرنا وحدثنا مسار الفايل
+import 'package:chat_app/features/splash_screen/presentation/view/splash_view.dart';//غيرنا وحدثنا مسار الفايل
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -2,8 +2,8 @@ import 'package:chat_app/core/constants/asset_images.dart';
 import 'package:chat_app/core/shared_widgets/default_text.dart';
 import 'package:chat_app/core/themes/color_app.dart';
 import 'package:chat_app/core/themes/styles.dart';
-import 'package:chat_app/features/view/login_view.dart';
-import 'package:chat_app/features/view/widgets/splash_body.dart';
+import 'package:chat_app/features/auth/presentation/views/login_view.dart';
+import 'package:chat_app/features/splash_screen/presentation/view/widgets/splash_body.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatefulWidget {

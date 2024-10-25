@@ -3,13 +3,12 @@ import 'package:chat_app/core/shared_widgets/default_text.dart';
 import 'package:chat_app/core/themes/styles.dart';
 import 'package:flutter/material.dart';
 
-class LoginView extends StatelessWidget {
-  const LoginView({super.key});
+class LoginBody extends StatelessWidget {
+  const LoginBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Padding(
+    return Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -55,7 +54,6 @@ class LoginView extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      );
   }
 }

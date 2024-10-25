@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ColorApp {
-  static const primaryColor = Color(0xFF128C7E); //WhatsApp color
+  static const primaryColor = Color(0xFF4CB050); //WhatsApp color
   static const Color secondryColor = Color(0xFF25D366);
   static const Color textColor = Color(0xFF000000);
   static const Color splashBackgroundColor = Color(0xFFFFFFFF);
